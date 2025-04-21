@@ -14,7 +14,7 @@ let board = Array(9).fill(null); // Game board
 let currentPlayer = 0; // 0 for player 1, 1 for player 2
 
 io.on("connection", (socket) => {
-  console.log("A user connected:", socket.id);
+  console.log("A user connected2:", socket.id);
 
   if (players.length < 2) {
     players.push(socket.id);
